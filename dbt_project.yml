@@ -40,3 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+  jaffle_shop:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
