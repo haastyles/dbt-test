@@ -3,7 +3,7 @@ models:
     columns:
       - name: customer_id
         description: The unique identifier for each customer record.
-        tests:
+        data_tests:
           - unique
           - not_null
       - name: first_name
@@ -14,7 +14,7 @@ models:
     columns:
       - name: order_id
         description: The unique identifier for each order record.
-        tests:
+        data_tests:
          - unique
          - not_null
       - name: status
