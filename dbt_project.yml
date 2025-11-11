@@ -43,7 +43,7 @@ models:
       +schema: staging
     marts:
       +materialized: table
-      +schema: marts
-    finance:
-      +materialized: table
-      +schema: finance
+      marketing:
+        +schema: marketing
+      finance:
+        +schema: finance
